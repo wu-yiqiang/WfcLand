@@ -12,7 +12,7 @@
       Title="Setting">
     <ikw:SimpleStackPanel Spacing="4">
         <ui:SettingsCard x:Name="settingsCard"
-                         Header="主题"
+                         Header="应用主题"
                          IsEnabled="True">
             <ui:SettingsCard.HeaderIcon>
                 <ui:FontIcon Glyph="&#xE790;" />
@@ -23,7 +23,7 @@
                 <ComboBoxItem>浅色</ComboBoxItem>
             </ComboBox>
         </ui:SettingsCard>
-        <ui:SettingsCard Header="语言"
+        <ui:SettingsCard Header="界面语言"
                          IsEnabled="True">
             <ui:SettingsCard.HeaderIcon>
                 <ui:FontIcon Glyph="&#xF2B7;" />
@@ -47,13 +47,39 @@
                 <ui:SettingsCard HorizontalContentAlignment="Left"
                                  ContentAlignment="Left">
                     <StackPanel Margin="-12,0,0,0"
-                                Orientation="Vertical">
+                                Orientation="Horizontal">
                         <ui:HyperlinkButton Content="源代码"
                                             NavigateUri="https://github.com/wu-yiqiang/WfcLand" />
-                        <ui:HyperlinkButton Content="问题汇总" />
+                        <ui:HyperlinkButton Content="隐私政策"
+                                            Click="HandlePrivacyDialog"
+                                            RaiseHyperlinkClicks="False" />
+                        <ui:HyperlinkButton Content="许可证"
+                                            Click="HandleLicenseDialog"
+                                            RaiseHyperlinkClicks="False" />
+                        <ui:HyperlinkButton Content="报告问题"
+                                            NavigateUri="https://github.com/wu-yiqiang/WfcLand/issues" />
                     </StackPanel>
                 </ui:SettingsCard>
             </ui:SettingsExpander.Items>
         </ui:SettingsExpander>
+        <ui:ContentDialog x:Name="PrivacyDialog"
+                          Title="隐私政策"
+                          Width="220"
+                          SecondaryButtonText="关闭">
+            <StackPanel>
+                <TextBlock Text="  This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your anonynous Non-Personal data and health and performance data of the Service to provide and improve the Service itself. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy." />
+                
+            </StackPanel>
+        </ui:ContentDialog>
+        <ui:ContentDialog x:Name="LicenseDialog"
+                          Title="许可证"
+                          MaxWidth="420"
+                          SecondaryButtonText="关闭">
+            <StackPanel>
+                <TextBlock Text="MIT License
+Copyright (c) 2021 Etienne Baudoux" />
+            </StackPanel>
+        </ui:ContentDialog>
     </ikw:SimpleStackPanel>
+    
 </Page>

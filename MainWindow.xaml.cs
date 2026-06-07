@@ -20,7 +20,6 @@ namespace WfcLand
             { "LiteGrab", typeof(LiteGrab) },
             { "Setting", typeof(Setting) }
         };
-        public string HeaderTitle { get; set; } = "212";
 
         public MainWindow()
         {
@@ -37,7 +36,6 @@ namespace WfcLand
             {
                 string tag = selectedItem.Tag?.ToString();
                 NavView.Header = selectedItem.Content;
-
                 // 4. 从字典中查找对应的页面并跳转
                 if (!string.IsNullOrEmpty(tag) && _pages.TryGetValue(tag, out Type pageType))
                 {

@@ -15,9 +15,9 @@
     <ui:NavigationView x:Name="NavView"
                        Header="应用总览"
                        IsTabStop="False"
-                       IsBackEnabled="False"
+                       IsBackEnabled="True"
                        SelectionFollowsFocus="Disabled"
-                       IsBackButtonVisible="Auto"
+                       IsBackButtonVisible="Collapsed"
                        PaneDisplayMode="Auto"
                        SelectionChanged="NavView_SelectionChanged">
         <ui:NavigationView.MenuItems>
@@ -51,6 +51,52 @@
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.LightningBolt}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
+            <ui:NavigationViewItem Content="网络连接"
+                                   SelectsOnInvoked="False"
+                                   >
+                <ui:NavigationViewItem.Icon>
+                    <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Connected}" />
+                </ui:NavigationViewItem.Icon>
+                <ui:NavigationViewItem.MenuItems>
+                    <ui:NavigationViewItem Content="SSH"
+                                           Tag="LiteGrab">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem Content="FTP"
+                                           Tag="LiteGrab">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem Content="SFTP"
+                                           Tag="LiteGrab">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem Content="TELNET"
+                                           Tag="LiteGrab">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem Content="RDP"
+                                           Tag="LiteGrab">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem Content="VNC"
+                                           Tag="LiteGrab">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                </ui:NavigationViewItem.MenuItems>
+            </ui:NavigationViewItem>
+          
         </ui:NavigationView.MenuItems>
         <ui:NavigationView.AutoSuggestBox>
             <ui:AutoSuggestBox AutomationProperties.Name="Search">
