@@ -13,7 +13,7 @@
         Icon="pack://application:,,,/Assets/logo.ico"
         WindowStartupLocation="CenterScreen">
     <ui:NavigationView x:Name="NavView"
-                       Header="工具总览"
+                       Header="应用总览"
                        IsTabStop="False"
                        IsBackEnabled="False"
                        SelectionFollowsFocus="Disabled"
@@ -68,6 +68,7 @@
             </ui:NavigationViewItem>
         </ui:NavigationView.FooterMenuItems>
         <ui:Frame x:Name="ContentFrame"
-                  Margin="0,0,0,0" />
+                  Margin="56,10,56,20"
+                  VerticalContentAlignment="Top"/>
     </ui:NavigationView>
 </Window>
