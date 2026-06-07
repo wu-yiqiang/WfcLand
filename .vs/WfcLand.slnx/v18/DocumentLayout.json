@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\WfcLand\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\setting.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\setting.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Setting.xaml",
               "DocumentMoniker": "D:\\WfcLand\\Views\\Setting.xaml",
               "RelativeDocumentMoniker": "Views\\Setting.xaml",
               "ToolTip": "D:\\WfcLand\\Views\\Setting.xaml",
               "RelativeToolTip": "Views\\Setting.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAIAxwDoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-06-07T04:20:01.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\WfcLand\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\WfcLand\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-06-07T04:18:24.478Z",
               "EditorCaption": ""
