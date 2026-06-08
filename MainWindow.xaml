@@ -39,7 +39,7 @@
                     <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.NetworkCheck_20_Filled}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="剪切历史"
+            <ui:NavigationViewItem Content="临时剪切"
                                    Tag="PasteLists">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.ClipboardPaste_16_Regular}" />
@@ -51,7 +51,7 @@
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.LightningBolt}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="网络连接"
+            <ui:NavigationViewItem Content="远程连接"
                                    SelectsOnInvoked="False"
                                    >
                 <ui:NavigationViewItem.Icon>
@@ -59,7 +59,7 @@
                 </ui:NavigationViewItem.Icon>
                 <ui:NavigationViewItem.MenuItems>
                     <ui:NavigationViewItem Content="SSH"
-                                           Tag="LiteGrab">
+                                           Tag="Ssh">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
                         </ui:NavigationViewItem.Icon>

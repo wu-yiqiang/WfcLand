@@ -18,7 +18,8 @@ namespace WfcLand
             { "InternetSpeed", typeof(InternetSpeed) },
             { "PasteLists", typeof(PasteLists) },
             { "LiteGrab", typeof(LiteGrab) },
-            { "Setting", typeof(Setting) }
+            { "Setting", typeof(Setting) },
+            { "Ssh", typeof(Ssh) }
         };
 
         public MainWindow()

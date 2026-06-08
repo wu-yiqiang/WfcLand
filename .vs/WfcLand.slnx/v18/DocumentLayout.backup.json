@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\WfcLand\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\setting.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\setting.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\pastelists.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\pastelists.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\pastelists.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\pastelists.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\setting.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\setting.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\wfcland.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:wfcland.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\wfcland.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:wfcland.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,52 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Setting.xaml.cs",
               "DocumentMoniker": "D:\\WfcLand\\Views\\Setting.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Setting.xaml.cs",
               "ToolTip": "D:\\WfcLand\\Views\\Setting.xaml.cs",
               "RelativeToolTip": "Views\\Setting.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T13:24:19.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\WfcLand\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\WfcLand\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T13:15:50.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Setting.xaml",
-              "DocumentMoniker": "D:\\WfcLand\\Views\\Setting.xaml",
-              "RelativeDocumentMoniker": "Views\\Setting.xaml",
-              "ToolTip": "D:\\WfcLand\\Views\\Setting.xaml*",
-              "RelativeToolTip": "Views\\Setting.xaml*",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-07T04:20:01.256Z",
+              "WhenOpened": "2026-06-08T07:28:47.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\WfcLand\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\WfcLand\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-07T04:18:24.478Z"
+              "WhenOpened": "2026-06-08T07:18:58.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasteLists.xaml.cs",
+              "DocumentMoniker": "D:\\WfcLand\\Views\\PasteLists.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PasteLists.xaml.cs",
+              "ToolTip": "D:\\WfcLand\\Views\\PasteLists.xaml.cs*",
+              "RelativeToolTip": "Views\\PasteLists.xaml.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAA9wCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T07:09:41.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasteLists.xaml",
+              "DocumentMoniker": "D:\\WfcLand\\Views\\PasteLists.xaml",
+              "RelativeDocumentMoniker": "Views\\PasteLists.xaml",
+              "ToolTip": "D:\\WfcLand\\Views\\PasteLists.xaml",
+              "RelativeToolTip": "Views\\PasteLists.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-08T07:09:35.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WfcLand",
+              "DocumentMoniker": "D:\\WfcLand\\WfcLand.csproj",
+              "RelativeDocumentMoniker": "WfcLand.csproj",
+              "ToolTip": "D:\\WfcLand\\WfcLand.csproj",
+              "RelativeToolTip": "WfcLand.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T04:51:52.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WfcLand.csproj",
+              "DocumentMoniker": "D:\\WfcLand\\WfcLand.csproj",
+              "RelativeDocumentMoniker": "WfcLand.csproj",
+              "ToolTip": "D:\\WfcLand\\WfcLand.csproj",
+              "RelativeToolTip": "WfcLand.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T04:43:37.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\WfcLand\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\WfcLand\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T02:57:02.778Z",
+              "EditorCaption": ""
             }
           ]
         }
