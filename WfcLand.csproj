@@ -12,12 +12,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Icons\launch.png" />
+    <None Remove="Assets\Icons\stop.png" />
     <None Remove="Assets\logo.ico" />
     <None Remove="Assets\logo.png" />
     <None Remove="Assets\logo.svg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\Icons\launch.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\stop.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\logo.ico" />
     <Resource Include="Assets\logo.png" />
     <Resource Include="Assets\logo.svg" />
@@ -25,6 +33,7 @@
 
   <ItemGroup>
     <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.10.2.1" />
+    <PackageReference Include="System.IO.Ports" Version="10.0.9" />
   </ItemGroup>
 
   <ItemGroup>

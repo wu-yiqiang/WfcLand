@@ -10,6 +10,7 @@
         xmlns:local="clr-namespace:WfcLand"
         Title="WfcLand"
         WindowState="Maximized"
+        SizeToContent="Manual"
         Icon="pack://application:,,,/Assets/logo.ico"
         WindowStartupLocation="CenterScreen">
     <ui:NavigationView x:Name="NavView"
@@ -31,6 +32,12 @@
                                    Tag="SerialMonitor">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.USB}" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+            <ui:NavigationViewItem Content="文件打印"
+                                   Tag="FilePrint">
+                <ui:NavigationViewItem.Icon>
+                    <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Print}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
             <ui:NavigationViewItem Content="网络测速"
@@ -115,6 +122,6 @@
         </ui:NavigationView.FooterMenuItems>
         <ui:Frame x:Name="ContentFrame"
                   Margin="56,10,56,20"
-                  VerticalContentAlignment="Top"/>
+                  />
     </ui:NavigationView>
 </Window>

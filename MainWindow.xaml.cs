@@ -1,6 +1,6 @@
 ﻿using iNKORE.UI.WPF.Modern;
 using iNKORE.UI.WPF.Modern.Controls;
-using System.Configuration;
+
 using System.Windows;
 using WfcLand.Views;
 
