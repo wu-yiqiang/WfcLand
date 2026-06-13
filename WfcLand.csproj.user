@@ -5,6 +5,9 @@
     <Compile Update="Controls\DropdownLabel.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\DeviceScan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\InternetSpeed.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +18,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\PasteLists.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PortScan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\SerialMonitor.xaml.cs">

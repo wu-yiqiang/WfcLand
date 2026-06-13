@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\WfcLand\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\devicescan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\devicescan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\portscan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\portscan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\litegrab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\litegrab.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\views\\serialmonitor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\serialmonitor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -19,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:views\\pastelists.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\models\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:models\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\viewmodels\\serialmonitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:viewmodels\\serialmonitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|d:\\wfcland\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42AEA507-5B2E-65BA-E1C2-8DA303F4FD9F}|WfcLand.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sutter\\AppData\\Local\\Temp\\.vsdbgsrc\\157b23b3c79710d6a2852a99291dc548dfdcda3b647f1225ad8fe585f64e1a92\\ArgumentNullException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -77,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,7 +97,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceScan.xaml",
+              "DocumentMoniker": "D:\\WfcLand\\Views\\DeviceScan.xaml",
+              "RelativeDocumentMoniker": "Views\\DeviceScan.xaml",
+              "ToolTip": "D:\\WfcLand\\Views\\DeviceScan.xaml",
+              "RelativeToolTip": "Views\\DeviceScan.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-13T21:30:45.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PortScan.xaml",
+              "DocumentMoniker": "D:\\WfcLand\\Views\\PortScan.xaml",
+              "RelativeDocumentMoniker": "Views\\PortScan.xaml",
+              "ToolTip": "D:\\WfcLand\\Views\\PortScan.xaml",
+              "RelativeToolTip": "Views\\PortScan.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-13T21:26:21.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LiteGrab.xaml",
+              "DocumentMoniker": "D:\\WfcLand\\Views\\LiteGrab.xaml",
+              "RelativeDocumentMoniker": "Views\\LiteGrab.xaml",
+              "ToolTip": "D:\\WfcLand\\Views\\LiteGrab.xaml",
+              "RelativeToolTip": "Views\\LiteGrab.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-11T13:08:23.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\WfcLand\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\WfcLand\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwEUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-08T07:18:58.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\WfcLand\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\WfcLand\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:53:37.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SerialMonitor.xaml.cs",
               "DocumentMoniker": "D:\\WfcLand\\Views\\SerialMonitor.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SerialMonitor.xaml.cs",
@@ -93,25 +169,23 @@
               "RelativeToolTip": "Views\\SerialMonitor.xaml.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwBAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T02:54:35.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T02:54:35.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "SerialMonitor.xaml",
               "DocumentMoniker": "D:\\WfcLand\\Views\\SerialMonitor.xaml",
               "RelativeDocumentMoniker": "Views\\SerialMonitor.xaml",
               "ToolTip": "D:\\WfcLand\\Views\\SerialMonitor.xaml",
               "RelativeToolTip": "Views\\SerialMonitor.xaml",
-              "ViewState": "AgIAAGMAAAAAAAAAAIAxwJUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-11T02:49:52.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T02:49:52.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "PasteLists.xaml",
               "DocumentMoniker": "D:\\WfcLand\\Views\\PasteLists.xaml",
               "RelativeDocumentMoniker": "Views\\PasteLists.xaml",
@@ -119,12 +193,11 @@
               "RelativeToolTip": "Views\\PasteLists.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-08T07:09:35.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:09:35.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PasteLists.xaml.cs",
               "DocumentMoniker": "D:\\WfcLand\\Views\\PasteLists.xaml.cs",
               "RelativeDocumentMoniker": "Views\\PasteLists.xaml.cs",
@@ -132,25 +205,11 @@
               "RelativeToolTip": "Views\\PasteLists.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:09:41.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:09:41.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\WfcLand\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\WfcLand\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAswHQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-08T07:18:58.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MainWindowModel.cs",
               "DocumentMoniker": "D:\\WfcLand\\Models\\MainWindowModel.cs",
               "RelativeDocumentMoniker": "Models\\MainWindowModel.cs",
@@ -158,12 +217,11 @@
               "RelativeToolTip": "Models\\MainWindowModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T10:01:17.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T10:01:17.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "SerialMonitorViewModel.cs",
               "DocumentMoniker": "D:\\WfcLand\\ViewModels\\SerialMonitorViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\SerialMonitorViewModel.cs",
@@ -171,25 +229,11 @@
               "RelativeToolTip": "ViewModels\\SerialMonitorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T10:03:25.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T10:03:25.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\WfcLand\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\WfcLand\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T04:53:37.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ArgumentNullException.cs",
               "DocumentMoniker": "C:\\Users\\sutter\\AppData\\Local\\Temp\\.vsdbgsrc\\157b23b3c79710d6a2852a99291dc548dfdcda3b647f1225ad8fe585f64e1a92\\ArgumentNullException.cs",
               "ToolTip": "C:\\Users\\sutter\\AppData\\Local\\Temp\\.vsdbgsrc\\157b23b3c79710d6a2852a99291dc548dfdcda3b647f1225ad8fe585f64e1a92\\ArgumentNullException.cs [\u53EA\u8BFB]",
@@ -200,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DropdownLabel.xaml",
               "DocumentMoniker": "D:\\WfcLand\\Controls\\DropdownLabel.xaml",
               "RelativeDocumentMoniker": "Controls\\DropdownLabel.xaml",
@@ -212,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "OverView.xaml",
               "DocumentMoniker": "D:\\WfcLand\\Views\\OverView.xaml",
               "RelativeDocumentMoniker": "Views\\OverView.xaml",
@@ -224,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Command.cs",
               "DocumentMoniker": "D:\\WfcLand\\Base\\Command.cs",
               "RelativeDocumentMoniker": "Base\\Command.cs",
@@ -236,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "DropdownLabel.xaml.cs",
               "DocumentMoniker": "D:\\WfcLand\\Controls\\DropdownLabel.xaml.cs",
               "RelativeDocumentMoniker": "Controls\\DropdownLabel.xaml.cs",
@@ -248,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Setting.xaml.cs",
               "DocumentMoniker": "D:\\WfcLand\\Views\\Setting.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Setting.xaml.cs",
@@ -260,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "WfcLand",
               "DocumentMoniker": "D:\\WfcLand\\WfcLand.csproj",
               "RelativeDocumentMoniker": "WfcLand.csproj",
@@ -271,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "WfcLand.csproj",
               "DocumentMoniker": "D:\\WfcLand\\WfcLand.csproj",
               "RelativeDocumentMoniker": "WfcLand.csproj",
@@ -283,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\WfcLand\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",

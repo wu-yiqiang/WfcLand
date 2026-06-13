@@ -18,6 +18,8 @@ namespace WfcLand
             { "InternetSpeed", typeof(InternetSpeed) },
             { "PasteLists", typeof(PasteLists) },
             { "LiteGrab", typeof(LiteGrab) },
+            { "PortScan", typeof(PortScan) },
+            {"DeviceScan", typeof(DeviceScan) },
             { "Setting", typeof(Setting) },
             { "Ssh", typeof(Ssh) }
         };

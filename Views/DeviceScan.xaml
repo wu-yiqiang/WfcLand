@@ -1,4 +1,4 @@
-﻿<Page x:Class="WfcLand.Views.LiteGrab"
+﻿<Page x:Class="WfcLand.Views.DeviceScan"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,9 +6,9 @@
       xmlns:local="clr-namespace:WfcLand.Views"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="LiteGrab">
+      Title="DeviceScan">
 
     <Grid>
-        <Button Content="静默传输，存储目录， 当本地存储小于移动存储时，是否需要复制， 文件类型，只需要复制某些文件或者，全部文件都可以复制" />
+        <Button Content="设备扫描" />
     </Grid>
 </Page>

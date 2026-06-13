@@ -34,18 +34,6 @@
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.USB}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="文件打印"
-                                   Tag="FilePrint">
-                <ui:NavigationViewItem.Icon>
-                    <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Print}" />
-                </ui:NavigationViewItem.Icon>
-            </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="网络测速"
-                                   Tag="InternetSpeed">
-                <ui:NavigationViewItem.Icon>
-                    <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.NetworkCheck_20_Filled}" />
-                </ui:NavigationViewItem.Icon>
-            </ui:NavigationViewItem>
             <ui:NavigationViewItem Content="临时剪切"
                                    Tag="PasteLists">
                 <ui:NavigationViewItem.Icon>
@@ -57,6 +45,32 @@
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.LightningBolt}" />
                 </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+            <ui:NavigationViewItem Content="网络检测"
+                                   SelectsOnInvoked="False">
+                <ui:NavigationViewItem.Icon>
+                    <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Network}" />
+                </ui:NavigationViewItem.Icon>
+                <ui:NavigationViewItem.MenuItems>
+                    <ui:NavigationViewItem Content="网络测速"
+                                           Tag="InternetSpeed">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.NetworkCheck_20_Filled}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem Content="端口扫描"
+                                           Tag="PortScan">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.SerialPort_16_Regular}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                    <ui:NavigationViewItem Content="设备扫描"
+                                           Tag="DeviceScan">
+                        <ui:NavigationViewItem.Icon>
+                            <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.DeviceDiscovery}" />
+                        </ui:NavigationViewItem.Icon>
+                    </ui:NavigationViewItem>
+                </ui:NavigationViewItem.MenuItems>
             </ui:NavigationViewItem>
             <ui:NavigationViewItem Content="远程连接"
                                    SelectsOnInvoked="False"
