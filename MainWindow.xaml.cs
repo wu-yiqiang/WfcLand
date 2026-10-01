@@ -6,6 +6,8 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Threading;
 using WfcLand.Views;
+using WfcLand.Views.RemoteConnection.Ftp;
+using WfcLand.Views.RemoteConnection.Ssh;
 
 namespace WfcLand
 {
@@ -21,7 +23,8 @@ namespace WfcLand
             { "PortScan", typeof(PortScan) },
             { "DeviceScan", typeof(DeviceScan) },
             { "Setting", typeof(Setting) },
-            { "Ssh", typeof(Ssh) }
+            { "Ssh", typeof(SshPage) },
+            { "Ftp", typeof(FtpPage) }
         };
 
         public MainWindow()
@@ -75,6 +78,16 @@ namespace WfcLand
                 {
                     ContentFrame.Navigate(pageType);
                 }
+            }
+        }
+        public void NavigateTo(string tag)
+        {
+            var item = FindMenuItem(NavView.MenuItems, tag)
+                    ?? FindMenuItem(NavView.FooterMenuItems, tag);
+
+            if (item != null)
+            {
+                NavView.SelectedItem = item;
             }
         }
     }

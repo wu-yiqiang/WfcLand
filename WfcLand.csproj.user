@@ -8,10 +8,10 @@
     <Compile Update="Controls\DropdownLabel.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\DeviceScan.xaml.cs">
+    <Compile Update="Views\NetworkDetection\DeviceScan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\InternetSpeed.xaml.cs">
+    <Compile Update="Views\NetworkDetection\InternetSpeed.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\LiteGrab.xaml.cs">
@@ -23,16 +23,19 @@
     <Compile Update="Views\PasteLists.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\PortScan.xaml.cs">
+    <Compile Update="Views\NetworkDetection\PortScan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RemoteConnection\Ftp\FtpPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RemoteConnection\Ssh\SshPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\SerialMonitor.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Setting.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\Ssh.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -1,123 +1,109 @@
-﻿<Window x:Class="WfcLand.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
-        ui:ThemeManager.IsThemeAware="True"
-        ui:WindowHelper.UseModernWindowStyle="True"
-        ui:WindowHelper.SystemBackdropType="Mica"
-        xmlns:local="clr-namespace:WfcLand"
-        Title="WfcLand"
-        WindowState="Maximized"
-        SizeToContent="Manual"
-        Icon="pack://application:,,,/Assets/logo.ico"
-        WindowStartupLocation="CenterScreen">
-    <ui:NavigationView x:Name="NavView"
-                       Header="应用总览"
-                       IsTabStop="False"
-                       IsBackEnabled="True"
-                       SelectionFollowsFocus="Disabled"
-                       IsBackButtonVisible="Collapsed"
-                       PaneDisplayMode="Auto"
-                       SelectionChanged="NavView_SelectionChanged">
+﻿<Window
+    x:Class="WfcLand.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WfcLand"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+    Title="WfcLand"
+    ui:ThemeManager.IsThemeAware="True"
+    ui:WindowHelper.SystemBackdropType="Mica"
+    ui:WindowHelper.UseModernWindowStyle="True"
+    Icon="pack://application:,,,/Assets/logo.ico"
+    SizeToContent="Manual"
+    WindowStartupLocation="CenterScreen"
+    WindowState="Maximized">
+    <ui:NavigationView
+        x:Name="NavView"
+        Header="应用总览"
+        IsBackButtonVisible="Collapsed"
+        IsBackEnabled="True"
+        IsTabStop="False"
+        PaneDisplayMode="Auto"
+        SelectionChanged="NavView_SelectionChanged"
+        SelectionFollowsFocus="Disabled">
         <ui:NavigationView.MenuItems>
-            <ui:NavigationViewItem Content="应用总览"
-                                   Tag="OverView">
+            <ui:NavigationViewItem Content="应用总览" Tag="OverView">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Home}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="串口助手"
-                                   Tag="SerialMonitor">
+            <ui:NavigationViewItem Content="串口助手" Tag="SerialMonitor">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.USB}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="临时剪切"
-                                   Tag="PasteLists">
+            <ui:NavigationViewItem Content="临时剪切" Tag="PasteLists">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.ClipboardPaste_16_Regular}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="静默传输"
-                                   Tag="LiteGrab">
+            <ui:NavigationViewItem Content="静默传输" Tag="LiteGrab">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.LightningBolt}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="网络检测"
-                                   SelectsOnInvoked="False">
+            <ui:NavigationViewItem Content="网络检测" SelectsOnInvoked="False">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Network}" />
                 </ui:NavigationViewItem.Icon>
                 <ui:NavigationViewItem.MenuItems>
-                    <ui:NavigationViewItem Content="网络测速"
-                                           Tag="InternetSpeed">
+                    <ui:NavigationViewItem Content="网络测速" Tag="InternetSpeed">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.NetworkCheck_20_Filled}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
-                    <ui:NavigationViewItem Content="端口扫描"
-                                           Tag="PortScan">
+                    <ui:NavigationViewItem Content="端口扫描" Tag="PortScan">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.SerialPort_16_Regular}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
-                    <ui:NavigationViewItem Content="设备扫描"
-                                           Tag="DeviceScan">
+                    <ui:NavigationViewItem Content="设备扫描" Tag="DeviceScan">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.DeviceDiscovery}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
                 </ui:NavigationViewItem.MenuItems>
             </ui:NavigationViewItem>
-            <ui:NavigationViewItem Content="远程连接"
-                                   SelectsOnInvoked="False"
-                                   >
+            <ui:NavigationViewItem Content="远程连接" SelectsOnInvoked="False">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Connected}" />
                 </ui:NavigationViewItem.Icon>
                 <ui:NavigationViewItem.MenuItems>
-                    <ui:NavigationViewItem Content="SSH"
-                                           Tag="Ssh">
+                    <ui:NavigationViewItem Content="SSH" Tag="Ssh">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
-                    <ui:NavigationViewItem Content="FTP"
-                                           Tag="LiteGrab">
+                    <ui:NavigationViewItem Content="FTP" Tag="Ftp">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
-                    <ui:NavigationViewItem Content="SFTP"
-                                           Tag="LiteGrab">
+                    <ui:NavigationViewItem Content="SFTP" Tag="Ssh">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
-                    <ui:NavigationViewItem Content="TELNET"
-                                           Tag="LiteGrab">
+                    <ui:NavigationViewItem Content="TELNET" Tag="Ssh">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
-                    <ui:NavigationViewItem Content="RDP"
-                                           Tag="LiteGrab">
+                    <ui:NavigationViewItem Content="RDP" Tag="Ssh">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
-                    <ui:NavigationViewItem Content="VNC"
-                                           Tag="LiteGrab">
+                    <ui:NavigationViewItem Content="VNC" Tag="Ssh">
                         <ui:NavigationViewItem.Icon>
                             <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.DesktopKeyboard_20_Regular}" />
                         </ui:NavigationViewItem.Icon>
                     </ui:NavigationViewItem>
                 </ui:NavigationViewItem.MenuItems>
             </ui:NavigationViewItem>
-          
+
         </ui:NavigationView.MenuItems>
         <ui:NavigationView.AutoSuggestBox>
             <ui:AutoSuggestBox AutomationProperties.Name="Search">
@@ -127,15 +113,12 @@
             </ui:AutoSuggestBox>
         </ui:NavigationView.AutoSuggestBox>
         <ui:NavigationView.FooterMenuItems>
-            <ui:NavigationViewItem Content="应用设置"
-                                   Tag="Setting">
+            <ui:NavigationViewItem Content="应用设置" Tag="Setting">
                 <ui:NavigationViewItem.Icon>
                     <ui:FontIcon Icon="{x:Static ui:SegoeFluentIcons.Settings}" />
                 </ui:NavigationViewItem.Icon>
             </ui:NavigationViewItem>
         </ui:NavigationView.FooterMenuItems>
-        <ui:Frame x:Name="ContentFrame"
-                  Margin="56,10,56,20"
-                  />
+        <ui:Frame x:Name="ContentFrame" Margin="56,10,56,20" />
     </ui:NavigationView>
 </Window>

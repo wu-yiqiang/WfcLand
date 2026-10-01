@@ -11,9 +11,11 @@
     mc:Ignorable="d">
     <ui:SettingsCard
         x:Name="settingsCard"
-        Description="{Binding Description}"
+                     IsClickEnabled="True"
+                     Description="{Binding Description}"
         Header="{Binding Title}"
-        IsEnabled="True">
+                     IsEnabled="True"
+                     Click="SettingsCardNavigate">
         <ui:SettingsCard.HeaderIcon>
             <ui:FontIcon Glyph="&#xE799;" />
         </ui:SettingsCard.HeaderIcon>

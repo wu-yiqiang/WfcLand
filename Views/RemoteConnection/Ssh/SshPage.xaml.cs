@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WfcLand.Views
+namespace WfcLand.Views.RemoteConnection.Ssh
 {
     /// <summary>
-    /// Ssh.xaml 的交互逻辑
+    /// SshPage.xaml 的交互逻辑
     /// </summary>
-    public partial class Ssh : Page
+    public partial class SshPage : Page
     {
-        public Ssh()
+        public SshPage()
         {
             InitializeComponent();
         }
