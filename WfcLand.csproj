@@ -26,6 +26,7 @@
     <Resource Include="Assets\Icons\stop.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Assets\Images\banner.jpg" />
     <Resource Include="Assets\logo.ico" />
     <Resource Include="Assets\logo.png" />
     <Resource Include="Assets\logo.svg" />
